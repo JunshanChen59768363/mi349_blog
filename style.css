@@ -1,0 +1,10 @@
+ul li {
+    padding: 2px;
+    display: inline;
+    border: 1px solid black;
+}
+
+img {
+    max-width: 50vw;
+    max-height: 50vh;
+}
