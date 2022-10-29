@@ -1,34 +1,59 @@
-<section>
-    <form>
-        <label>Name
-            <input type="text">
-        </label>
-    </form>
-    <form>
-        <label>Email address
-            <input type="text">
-        </label>
-    </form>
-    <form>
-        <div class="Reason for Contect">
-            <label>open comment
-                <div class="dropdown-content">
-                    <a href="#">Saying hi</a>
-                    <a href="#">Looking for a contractor</a>
-                    <a href="#">Interested in an interview</a>
-                  </div> 
-            </label>
-            
-          </div>  
-       
-    </form>
-    <form>
-        <label>open comment
-            <input type="text">
-        </label>
-    </form>
-    <form>
-        <button> Subscribe</button>
-    </form>
-   
-</section>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Junshan Chen">
+    <link rel="stylesheet" href="./style.css">
+    <title>Junshan's Blog</title>
+</head>
+
+<body>
+    <h1>Junshan Chen</h1>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Blog</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div itemscope>
+        Posted on <time itemprop="published" datetime="2022-10-15T17:00:00+00:00">October 15, 2022</time>
+    </div>
+
+    <article myAttribute="contact">
+
+        <section>
+
+            <form>
+                <label>Name
+                    <input type="text">
+                </label>
+            </form>
+            <form>
+                <label>Email address
+                    <input type="text">
+                </label>
+            </form>
+            <label for="reason">Reason for Contect:</label>
+            <select name="reason" id="reason">
+               <option value="">Saying Hi</option>
+               <option value="">looking for a contractor</option>
+               <option value="">interested in an interview</option>
+            </select>
+      
+            <form>
+                <label>open comment
+                    <input type="text">
+                </label>
+            </form>
+            <form>
+                <button> Subscribe</button>
+            </form>
+        
+        </section>
+    </article>
+</body>
+
+</html>

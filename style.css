@@ -14,3 +14,37 @@ img {
     max-width: 50vw;
     max-height: 50vh;
 }
+
+article[myAttribute="contact"] {
+    background-color: aqua;
+}
+
+#indexTable {
+    margin: 1px;
+    padding: 3px;
+    border:1px solid black;
+    background-color: aquamarine;
+}
+
+.indexTableItem {
+    margin: 1px;
+    padding: 3px;
+    border:1px solid black;
+}
+
+p {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: brown;
+}
+
+time {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    font-size: 24px;
+}
