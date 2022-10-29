@@ -15,7 +15,7 @@ img {
     max-height: 50vh;
 }
 
-article[myAttribute="contact"] {
+article[title="contact"] {
     background-color: aqua;
 }
 
